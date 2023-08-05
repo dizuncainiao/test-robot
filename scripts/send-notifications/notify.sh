@@ -12,6 +12,7 @@ curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key='$TEST_ROBOT_WB \
                 >更新日志: [点击查看](https://dizuncainiao.github.io/business-components/change-log/)
                 >任务已构建完成，请及时更新: <@所有人>【不回复】
 
+**<font color=\"comment\">更新小结：</font>**
 ## [0.0.22](https://github.com/dizuncainiao/business-components/compare/v0.0.21...v0.0.22) (2023-08-04)
 ### 🐛 Bug Fixes
 1. 优化调整音频播放的处理方式，使其更流畅的切换 ([4f3791f](https://github.com/dizuncainiao/business-components/commit/4f3791f))
