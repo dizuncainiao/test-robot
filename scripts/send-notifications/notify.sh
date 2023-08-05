@@ -16,14 +16,11 @@ curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key='$TEST_ROBOT_WB \
 
                 ### 🐛 Bug Fixes
 
-                - 优化调整音频播放的处理方式，使其更流畅的切换 ([4f3791f](https://github.com/dizuncainiao/business-components/commit/4f3791f))
+                1. 优化调整音频播放的处理方式，使其更流畅的切换 ([4f3791f](https://github.com/dizuncainiao/business-components/commit/4f3791f))
 
                 ### 🚀 Performance Improvements
 
-                - 拨号条组件布局细节优化 ([33518c9](https://github.com/dizuncainiao/business-components/commit/33518c9))
+                1. 拨号条组件布局细节优化 ([33518c9](https://github.com/dizuncainiao/business-components/commit/33518c9))
                 ",
            },
        }'
-
-echo "按任意键继续"
-read -n 1
