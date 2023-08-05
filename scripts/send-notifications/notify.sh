@@ -15,11 +15,9 @@ curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key='$TEST_ROBOT_WB \
                 ## [0.0.22](https://github.com/dizuncainiao/business-components/compare/v0.0.21...v0.0.22) (2023-08-04)
 
                 ### 🐛 Bug Fixes
-
                 1. 优化调整音频播放的处理方式，使其更流畅的切换 ([4f3791f](https://github.com/dizuncainiao/business-components/commit/4f3791f))
 
                 ### 🚀 Performance Improvements
-
                 1. 拨号条组件布局细节优化 ([33518c9](https://github.com/dizuncainiao/business-components/commit/33518c9))
                 ",
            },
