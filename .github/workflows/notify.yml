@@ -1,0 +1,15 @@
+name: Notify
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  TEST_ROBOT_WB: ${{secrets.TEST_ROBOT_WB}}
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - run: cd scripts/send-notifications && sh notify.sh
