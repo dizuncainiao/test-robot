@@ -12,4 +12,6 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
+      # 签出您的存储库$GITHUB_WORKSPACE，以便您的工作流可以访问它。
+      - uses: actions/checkout@v3
       - run: cd scripts/send-notifications && sh notify.sh
